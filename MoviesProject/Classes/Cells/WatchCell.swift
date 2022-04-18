@@ -10,6 +10,8 @@ import UIKit
 
 class WatchCell: UITableViewCell {
 
+    @IBOutlet weak var lbl: UILabel!
+    @IBOutlet weak var img: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

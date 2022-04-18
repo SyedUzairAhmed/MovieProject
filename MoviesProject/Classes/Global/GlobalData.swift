@@ -7,3 +7,12 @@
 //
 
 import Foundation
+struct GlobalData
+{
+    static var UpcomingMovies : UpcomingMovies!
+    static var MovieDetails : MovieDetails!
+    static var GetImages : GetImages!
+    static var Genremodel : Genremodel!
+    
+    static var genrearry = [genre]()
+}

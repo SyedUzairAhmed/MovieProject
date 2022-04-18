@@ -10,4 +10,5 @@ import UIKit
 
 class detailGenreCell: UICollectionViewCell {
     
+    @IBOutlet weak var btn: UIButton!
 }
